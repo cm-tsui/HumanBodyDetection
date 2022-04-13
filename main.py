@@ -108,7 +108,6 @@ def humanDetector(args):
     else:
         print('[INFO] Empty Command')
 
-
 def argsParser():
     arg_parse = argparse.ArgumentParser()
     arg_parse.add_argument("-v", "--video", default=None, help="path to Video File ")
